@@ -1,0 +1,29 @@
+$primary-text: purple;
+$secondary-text: navy;
+$tertiary-text: black;
+
+.form-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+    padding-top: 20px;
+    min-height: 100vh;
+    max-width: 900px;
+}
+
+.header {
+    color: $primary-text;
+    font-size: 1.375em;
+    font-weight: 400;
+}
+
+.sub-header {
+    color: $secondary-text;
+    font-size: .875em;
+}
+
+.form_question {
+    display: flex;
+    flex-direction: row;
+}

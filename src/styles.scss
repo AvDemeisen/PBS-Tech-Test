@@ -1,1 +1,25 @@
-/* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.google.com/specimen/Josefin+Sans?query=Josefin+Sans');
+
+body {
+    margin: 0;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+h2 {
+    font-size: 44px;
+    margin: 0;
+}
+
+h3 {
+    font-size: 1.25em;
+    font-weight: 500;
+
+}
+
+p, span {
+    font-size: .875em;
+}
